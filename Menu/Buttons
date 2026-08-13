@@ -77,5 +77,35 @@ namespace LuikiModMenu.Menu
         {
             Mods.Soundboard.Stop();
         }
+    
+        public static void KickGun()
+        {
+        Mods.OverpoweredMods.KickGun();
+        }
+
+        public static void KickAll()
+        {
+            Mods.OverpoweredMods.KickAll();
+        }
+
+        public static void CrashGun()
+        {
+            Mods.OverpoweredMods.CrashGun();
+        }
+        
+        public static void CrashAll()
+        {
+            Mods.OverpoweredMods.CrashAll();
+        }
+        
+        public static void BanGun()
+        {
+            Mods.OverpoweredMods.BanGun();
+        }
+        
+        public static void ReverseCard()
+        {
+            Mods.OverpoweredMods.ReverseCard();
+        }
     }
 }
